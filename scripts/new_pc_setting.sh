@@ -15,6 +15,7 @@ brew install bitwarden
 brew install vim
 brew install curl
 brew install git
+brew install lazygit
 brew install openjdk@21
 sudo ln -sfn /usr/local/opt/openjdk@21/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-21.jdk
 brew install tree
