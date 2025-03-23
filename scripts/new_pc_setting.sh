@@ -20,6 +20,7 @@ brew install tree
 brew install tmux
 brew install starship
 brew install wget
+brew install csvkit
 
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip
