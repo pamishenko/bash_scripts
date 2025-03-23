@@ -10,6 +10,7 @@ cd ..
 
 mkdir ~/scripts
 
+brew install cmatrix
 brew install bitwarden
 brew install vim
 brew install curl
