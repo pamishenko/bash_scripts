@@ -36,9 +36,7 @@ sh start.sh
 
 echo "source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 " >> ~/.zshrc
-
-echo "source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-" >> ~/.zshrc
+"source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 cd
 GREEN='\033[0;32m'
