@@ -25,6 +25,7 @@ brew install wget
 brew install csvkit
 brew install neofetch
 brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip
@@ -32,6 +33,9 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.z
 git clone git@github.com:pamishenko/vimrc.git
 cd vimrc
 sh start.sh
+
+echo "source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+" >> ~/.zshrc
 
 echo "source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 " >> ~/.zshrc
